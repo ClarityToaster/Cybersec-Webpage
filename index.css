@@ -1,0 +1,17 @@
+body{
+	background-color: honeydew;
+}
+h1{
+	font-size: 45px;
+	color: lawngreen;
+	text-transform: uppercase;
+	
+}
+p{
+	font-size: 25px;
+	color: midnightblue;
+}
+.center{
+	text-align: center;
+}
+.h{margin-right: auto;margin-left: auto; width: 100%;}
