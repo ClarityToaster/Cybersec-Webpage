@@ -1,8 +1,10 @@
+
 /* Set height of body and the document to 100% to enable "full page tabs" */
 body, html {
   height: 100%;
   margin: 0;
   font-family: Arial;
+  background-color: darkblue;
 }
 
 /* Style tab links */
@@ -22,8 +24,9 @@ body, html {
   margin-right: auto;
   margin-left: auto; 
   width: 100%;
-  background-color: lightblue;
+  background-color: darkblue;
   padding: 0;
+  margin: 0;
 }
 
 .tablink:hover {
@@ -38,6 +41,6 @@ body, html {
   height: 100%;
 }
 
-#Home {background-color: lightblue;}
-#Video {background-color: lightblue;}
-#About {background-color: lightblue}
+#Home {background-color: snow;}
+#Video {background-color: snow;}
+#About {background-color: snow;}
