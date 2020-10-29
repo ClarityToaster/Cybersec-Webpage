@@ -8,28 +8,17 @@
 </head>
 <body>
 	<img class="h" src="Cybersec.jpg">
-<button class="tablink" onclick="openPage('Home', this, 'navy')" id="Open">Home</button>
+<button class="tablink" onclick="openPage('Home', this, 'navy')" id="Open">Hjem</button>
+<button class="tablink" onclick="openPage('Encryption', this, 'navy')" >Kryptering</button>
+<button class="tablink" onclick="openPage('Protection', this, 'navy')" >Beskyttelse</button>
 <button class="tablink" onclick="openPage('Video', this,'navy')" >Video</button>
-<button class="tablink" onclick="openPage('About', this, 'navy')" >About</button>
-<button class="tablink" onclick="openPage('Encryption', this, 'navy')" >Encryption</button>
+<button class="tablink" onclick="openPage('About', this, 'navy')" >Om oss</button>
+
 
 <div id="Home" class="tabcontent">
-  <h3>Home</h3>
-  <p><h3>Krypterte meldinger</h3>
-<li>Alltid sikre at kommunikasjon foregår over sikre kanaler.</li>
-<li>Bruk alltid HTTPS heller enn HTTP.</li>
-<li>Ikke bruk f. eks. Facebook eller Twitter for å kommunisere privat med kilder og andre.</li>
-<li>Chattetjenster: Signal, Telegram o.l.</li>
-<li>E-posttjenester: ProtonMail, Tutanota o.l.</li>
+  <h3>Hjem</h3>
+  <p>
 
-<h3>Filkryptering og sikkerhetskopiering</h3>
-<li>Krypter de filene på harddisken som inneholder sensitiv og viktig informasjon.</li>
-<li>Alltid sikkerhetskopier viktig data som et sikkerhetstiltak mot tap av data, f.eks. til en ekstern harddisk og/eller SSD, eller til skyen (cloud backup). </li>
-
-<h3>Beskytte enheter</h3>
-<li>Viktig å ha installert, aktivert og oppdatert brannmur, antivirus, anti-malware osv.</li>
-<li>Installere sikkerhetsoppdateringer på enhetene dine (PC/mobil o.l.) med en gang de er tilgjengelige fra tilbyderne (Microsoft for Windows, Apple for Mac, Google for Android osv.) for å tette sikkerhetshull.</li>
-<li>Det kan være hensiktsmessig å bruke jobb-pc eksklusivt til jobb og ikke omfattende til privat bruk. Det motsatte gjelder også: Ikke bruk privat datautstyr til å utføre jobben. Særdeles viktig ved f.eks. hjemmekontor. Å logge seg inn på jobbens IT-system på privat datautstyr kan bli en risiko.</li>
 
 <h3>Password manager</h3>
 <li>Lar deg bruke avanserte og ulike passord for hver tjeneste uten å måtte huske alt sammen.</li>
@@ -41,10 +30,6 @@
 <li>En fysisk nøkkel, dvs. en såkalt "maskinvareautentiseringsenhet". Settes inn i maskinen på samme måte som en USB-enhet og verifiserer automatisk.</li>
 <li>Ved ekstreme krav for sikkerhet, bruk trefaktorautentisering, altså "noe du er" (fingerprint, IRIS, ansiktscan osv.), "noe du har" (telefon, PC, nøkkel osv.) og "noe du vet" (passord, PIN osv.).</li>
 
-<h3>Bruk av VPN</h3>
-<li>VPN-tjenester: ExpressVPN, NordVPN, ProtonVPN o.l.</li>
-<li>Kan surfe anonymt og sikkert på nett. Unngå likevel usikrede offentlige WiFi-nettverk.</li>
-<li>Nyttig for å få tilgang til internet i land med autoritære regimer.</li>
 
 <h3>For utenlandsjournalister:</h3>
 <li>Ved en jobbreise så kan det være viktig for journalisten å bare ta med seg strengt nødvendig elektronisk utstyr til utlandet som er essensielt for å utføre jobben man er satt til. Ikke ta med noe som kan gi noen lett tilgang til f.eks. viktige interne ressurser i den organisasjonen man jobber for.</li>
@@ -53,16 +38,47 @@
 <li>Aldri bruk ukjente minnepinner eller annet med USB-tilkobling som du ikke vet hvor kommer fra. Andre kan i verste fall ta over systemet ditt eller overvåke alt du gjør.</li></p>
 </div>
 
+<div id="Encryption" class="tabcontent">
+	<p>
+	<h3>Krypterte meldinger</h3>
+	<li>Alltid sikre at kommunikasjon foregår over sikre kanaler.</li>
+	<li>Bruk alltid HTTPS heller enn HTTP.</li>
+	<li>Ikke bruk f. eks. Facebook eller Twitter for å kommunisere privat med kilder og andre.</li>
+	<li>Chattetjenster: Signal, Telegram o.l.</li>
+	<li>E-posttjenester: ProtonMail, Tutanota o.l.</li>
+	<h3>Filkryptering og sikkerhetskopiering</h3>
+	<li>Krypter de filene på harddisken som inneholder sensitiv og viktig informasjon.</li>
+	<li>Alltid sikkerhetskopier viktig data som et sikkerhetstiltak mot tap av data, f.eks. til en ekstern harddisk og/eller SSD, eller til skyen (cloud backup). </li>
+	</p>
+</div>
+
+<div id="Protection" class="tabcontent">
+	<p>
+		<h3>Beskytte enheter</h3>
+	<li>Viktig å ha installert, aktivert og oppdatert brannmur, antivirus, anti-malware osv.</li>
+	<li>Installere sikkerhetsoppdateringer på enhetene dine (PC/mobil o.l.) med en gang de er tilgjengelige fra tilbyderne (Microsoft for Windows, Apple for Mac, Google for Android osv.) for å tette sikkerhetshull.</li>
+	<li>Det kan være hensiktsmessig å bruke jobb-pc eksklusivt til jobb og ikke omfattende til privat bruk. Det motsatte gjelder også: Ikke bruk privat datautstyr til å utføre jobben. Særdeles viktig ved f.eks. hjemmekontor. Å logge seg inn på jobbens IT-system på privat datautstyr kan bli en risiko.</li>
+
+<h3>Bruk av VPN</h3>
+<li>VPN-tjenester: ExpressVPN, NordVPN, ProtonVPN o.l.</li>
+<li>Kan surfe anonymt og sikkert på nett. Unngå likevel usikrede offentlige WiFi-nettverk.</li>
+<li>Nyttig for å få tilgang til internet i land med autoritære regimer.</li>
+
+	</p>
+
+</div>
+
+
 <div id="Video" class="tabcontent">
-  <h3>Video</h3>
+	<h3>Her er en kort video som du kan se:</h3>
   <video width="1280" height="720" controls>
   	<source src="pptxvideo.mp4" type="video/mp4">
 	Your browser does not support this video tag.
   </video>
 </div>
 <div id="About" class="tabcontent">
-  <h3>About</h3>
-  <p>This was made by ... </p>
+  <h3>Om oss</h3>
+  <p>Dette prosjektet ble laget av ... </p>
 </div>
 <script src="index.js"></script>
 </body>

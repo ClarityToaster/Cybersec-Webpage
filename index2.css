@@ -5,6 +5,15 @@ body, html {
   margin: 0;
   font-family: Arial;
   background-color: darkblue;
+
+}
+
+li {
+
+  color: black; 
+  padding: 3px;
+  font-size: 19px;
+
 }
 
 /* Style tab links */
@@ -15,9 +24,9 @@ body, html {
   border: none;
   outline: none;
   cursor: pointer;
-  padding: 14px 16px;
-  font-size: 17px;
-  width: 25%;
+  padding: 14px 15px;
+  font-size: 23px;
+  width: 20%;
 }
 
 .h{
@@ -44,3 +53,5 @@ body, html {
 #Home {background-color: snow;}
 #Video {background-color: snow;}
 #About {background-color: snow;}
+#Encryption {background-color: snow;}
+#Protection {background-color: snow;}
