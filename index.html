@@ -12,12 +12,20 @@
 <button class="tablink" onclick="openPage('Encryption', this, 'navy')" >Kryptering</button>
 <button class="tablink" onclick="openPage('Protection', this, 'navy')" >Beskyttelse</button>
 <button class="tablink" onclick="openPage('Access', this,'navy')" >Brukertilgang</button>
-<button class="tablink" onclick="openPage('Video', this,'navy')" >Video</button>
+
 <button class="tablink" onclick="openPage('About', this, 'navy')" >Om oss</button>
 
 
 <div id="Home" class="tabcontent">
-  <h3>Hjem</h3>
+<h2>
+	Hvis dette er første gang du er på nettsiden kan du se introduksjonsvideoen under. <br>
+	Ellers kan du navigere rundt på nettsiden ved å bruke menyen over.
+
+</h2>
+  <video width="1280" height="720" controls>
+  	<source src="pptxvideo.mp4" type="video/mp4">
+	Your browser does not support this video tag.
+  </video>
   
 </div>
 
@@ -76,15 +84,29 @@
 </div>
 
 <div id="Video" class="tabcontent">
-	<h3>Her er en kort video som du kan se:</h3>
-  <video width="1280" height="720" controls>
-  	<source src="pptxvideo.mp4" type="video/mp4">
-	Your browser does not support this video tag.
-  </video>
+	
 </div>
 <div id="About" class="tabcontent">
   <h3>Om oss</h3>
-  <p>Dette prosjektet ble laget av ... </p>
+  <p>Dette prosjektet ble laget av Edward, Nikolay, Jonathan og Leon.
+ </p>
+ <p>
+ 	Dere kan kontakte oss via mail eller telefon: </p>
+ <p >	Edward: </p>
+ <p class="info">				example@hotmail.com<br>
+ 				-----<br>
+ 			</p>
+ <p >	Nikolay: </p>
+ <p class="info">				test@gmail.com<br>
+ 				----- </p>
+ <p >	Jonathan: </p>
+ <p class="info">				jon@hotmail.co.uk<br>
+ 				-----<br> </p>
+ <p >	Leon: </p>
+ <p class="info">				noe@aol.com<br>
+ 				----- </p>
+
+ </p>
 </div>
 <script src="index.js"></script>
 </body>

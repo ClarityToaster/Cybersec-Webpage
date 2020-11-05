@@ -16,6 +16,14 @@ li {
 
 }
 
+.info {
+
+
+margin-left: 90px;
+
+}
+
+
 /* Style tab links */
 .tablink {
   background-color: #555;
@@ -26,7 +34,7 @@ li {
   cursor: pointer;
   padding: 14px 15px;
   font-size: 23px;
-  width: 16.6666%;
+  width: 20%;
 }
 
 .h{
